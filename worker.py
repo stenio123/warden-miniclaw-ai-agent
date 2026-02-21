@@ -67,6 +67,7 @@ async def main() -> None:
             activities.execute_tool_activity,
             activities.call_llm_activity,
             activities.write_tool_file_activity,
+            activities.spawn_workflow_activity,
         ],
     )
 
