@@ -1,0 +1,65 @@
+# Environment variables
+**/.env
+
+# uv lock file (commit this for reproducibility)
+# uv.lock
+
+# Virtual environment
+.venv/
+
+# Terraform
+**/*.tfvars
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporal
+.temporal/
+
+# Warden runtime workspace — generated at runtime, not source
+# Keep: workspace/SOUL.md, workspace/MEMORY.md, workspace/tools/
+workspace/memory/
+workspace/sessions/
+workspace/memory.db
+workspace/memory.db-shm
+workspace/memory.db-wal

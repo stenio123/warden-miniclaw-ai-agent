@@ -1,0 +1,12 @@
+[project]
+name = "warden"
+version = "0.1.0"
+description = "Self-improving durable agent with Temporal"
+requires-python = ">=3.11"
+dependencies = [
+    "temporalio[openai-agents]>=1.18.0",
+    "openai-agents[litellm]==0.3.2",
+    "litellm>=1.0.0",
+    "flask>=3.0",
+    "python-dotenv>=1.0.0",
+]
